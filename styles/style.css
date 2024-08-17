@@ -1,9 +1,15 @@
 .menue {
     width: 320px;
-    height: 100%;
-    padding: 18.73px 24px 0;
+    height: auto;
+    padding: 18.73px 24px 32px;
     display: flex;
     flex-direction: column;
+    box-shadow: 
+    -2px 0 4px 0 rgba(69, 79, 126, 2%),
+    16px 0 52px rgba(14, 24, 80, 20%);
+    font-family: TT Lakes, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
@@ -11,6 +17,7 @@
 .menue__upper {
     display: flex;
     align-items: center;
+    margin-bottom: 46.27px;
 }
 .menue__burger {
     margin-right: 16.73px;
@@ -25,17 +32,45 @@
 
 
 .menue__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 268px;
 }
 .menue__list-item {
+    color: #1B1C21;
+    transition: 0.3s;
 }
+
+.menue__list-item:hover {
+    opacity: 0.5;
+}
+
 .menue__list-item--active {
+    color: #7E7E82;
+    display: flex;
+    align-items: center;
+}
+
+.menue__list-item--active::before {
+    content: "";
+    background-image: url(/Img/highlight.svg);
+    margin-left: -24px;
+    margin-right: 20px;
+    width: 4px;
+    height: 32px;
+
 }
 
 
 
 .menue__bottom {
+
 }
 .menue__bottom-links {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 16px;
 }
 .menue__call {
 }
@@ -44,12 +79,19 @@
 .menue__profile {
 }
 .menue__email {
+    display: block;
+    margin-bottom: 12px;
 }
 .menue__phone-number {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
 }
 .menue__langs {
+    margin-top: 40px;
 }
-.RU {
+.RU--active{
+    color: #7E7E82;
 }
 .EN {
 }

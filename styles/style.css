@@ -13,7 +13,6 @@
 }
 
 
-
 .menue__upper {
     display: flex;
     align-items: center;
@@ -25,10 +24,6 @@
 .menue__logo {
     margin-right: 78.27px;
 }
-.menue__search {
-    
-}
-
 
 
 .menue__list {
@@ -63,21 +58,12 @@
 }
 
 
-
-.menue__bottom {
-
-}
 .menue__bottom-links {
     display: flex;
     column-gap: 16px;
     margin-bottom: 16px;
 }
-.menue__call {
-}
-.menue__chat {
-}
-.menue__profile {
-}
+
 .menue__email {
     display: block;
     margin-bottom: 12px;
@@ -92,8 +78,4 @@
 }
 .RU--active{
     color: #7E7E82;
-}
-.EN {
-}
-.CH {
 }

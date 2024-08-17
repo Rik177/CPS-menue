@@ -1,0 +1,57 @@
+.menue {
+    width: 320px;
+    height: 100%;
+    padding: 18.73px 24px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.menue__upper {
+    display: flex;
+    align-items: center;
+}
+.menue__burger {
+    margin-right: 16.73px;
+}
+.menue__logo {
+    margin-right: 78.27px;
+}
+.menue__search {
+    
+}
+
+
+
+.menue__list {
+}
+.menue__list-item {
+}
+.menue__list-item--active {
+}
+
+
+
+.menue__bottom {
+}
+.menue__bottom-links {
+}
+.menue__call {
+}
+.menue__chat {
+}
+.menue__profile {
+}
+.menue__email {
+}
+.menue__phone-number {
+}
+.menue__langs {
+}
+.RU {
+}
+.EN {
+}
+.CH {
+}
